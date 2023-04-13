@@ -1,5 +1,5 @@
 .our {
-    max-width: 400px;
+    max-width: 320px;
 }
 
 .title {
@@ -27,13 +27,15 @@
     border-radius: 20px;
     border: none;
     cursor: pointer;
+    transition: background-color 0.3s ease;
+    transition: box-shadow 0.3s ease;
+
 
 }
 
 .btn:hover {
-    box-shadow: 10px 16px 20px -10px rgba(0, 0, 0, 0.61);
-    -webkit-box-shadow: 10px 16px 20px -10px rgba(0, 0, 0, 0.61);
-    -moz-box-shadow: 10px 16px 20px -10px rgba(0, 0, 0, 0.61);
+    box-shadow: 3px 4px 8px 0px rgba(0, 0, 0, 0.78);
+
     background-color: #FF65BC;
 }
 
@@ -41,6 +43,10 @@
     display: flex;
     gap: 20px;
     justify-content: center;
+}
+
+img {
+    max-width: 320px;
 }
 
 .text-sms {
