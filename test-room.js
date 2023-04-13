@@ -20,3 +20,27 @@ const arrSms = [
   "Ты - самое дорогое в моей жизни, и я не могу представить свою жизнь без тебя.",
   "Мне так не хватает общения с тобой, что я готов переступить через все препятствия ради нашей любви.",
 ];
+
+const pEl = document.querySelector(".text-sms");
+const btnEl = document.querySelector(".wrapper");
+const isHiddenImg = document.querySelector(".ishidden");
+const imgEl = document.querySelector(".img-first");
+
+btnEl.addEventListener("click", onBtnClick);
+
+let index = 0;
+
+function onBtnClick(e) {
+  if (e.target.type !== "button") {
+    return;
+  }
+
+  if (index === arrSms.length) {
+    isHiddenImg.classList.remove("ishidden");
+    imgEl.classList.add("ishidden");
+    pEl.style.fontSize = "30px";
+    return (pEl.textContent = "Very miss you");
+  }
+  pEl.textContent = arrSms[index];
+  index = index + 1;
+}
