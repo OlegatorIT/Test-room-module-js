@@ -1,13 +1,12 @@
 .our {
     max-width: 320px;
+    margin: 0 auto;
 }
 
 .title {
-    /* border: solid 1px black; */
-    display: inline-block;
+
     background-color: aqua;
     padding: 10px;
-    max-width: 400px;
     text-align: center;
 
 }
@@ -20,6 +19,7 @@
 
 
 .btn {
+    margin-top: 20px;
     font-size: 20px;
     font-weight: 700;
     padding: 15px;
