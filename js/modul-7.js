@@ -87,10 +87,18 @@
 // }
 
 // !=========================================================
-// const output = document.querySelector(".output");
-// let scrollEventCounter = 0;
+const output = document.querySelector(".output");
+let scrollEventCounter = 0;
 
 // document.addEventListener("scroll", (event) => {
 //   scrollEventCounter += 1;
 //   output.textContent = scrollEventCounter;
 // });
+
+// document.addEventListener(
+//   "scroll",
+//   _.debounce(() => {
+//     console.log((output.textContent = scrollEventCounter));
+//     scrollEventCounter += 1;
+//   }, 2000)
+// );

@@ -20,7 +20,7 @@ img {
 /* header  ========================================= */
 .header {
     background-color: #222222;
-    padding: 5px 20px;
+    padding: 10px;
 }
 
 .nav {
@@ -35,8 +35,15 @@ img {
 }
 
 .header-text {
+    display: none;
     color: #f3f2e0;
-    font-size: 30px;
+    font-size: 24px;
+
+
+    @media screen and (min-width: 768px) {
+        display: block;
+    }
+
 
 }
 
@@ -140,12 +147,24 @@ img {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 100px 20px;
+    padding: 50px 10px;
+}
+
+.moduls-list {
+    padding-left: 20px;
+
+    @media screen and (min-width: 768px) {
+        padding: 30px;
+    }
 }
 
 .moduls-item {
-    margin: 20px;
-    max-width: 250px;
+    margin-top: 30px;
+    max-width: 200px;
+
+    @media screen and (min-width: 768px) {
+        max-width: 250px;
+    }
 }
 
 .moduls-link {
@@ -154,8 +173,12 @@ img {
     padding: 10px 20px 10px 10px;
     background-color: greenyellow;
     border-radius: 0px 50px 50px 0px;
-    font-size: 24px;
+    font-size: 18px;
     line-height: 1.5;
+
+    @media screen and (min-width: 768px) {
+        font-size: 24px;
+    }
 }
 
 
@@ -254,20 +277,37 @@ img {
 
 footer {
     background-color: #22231e;
-    padding: 20px 20px 100px 20px;
+    padding: 10px;
     display: flex;
     align-items: center;
+    justify-content: center;
 
+
+    @media screen and (min-width: 768px) {
+        justify-content: flex-start;
+        padding: 20px 20px 100px 20px;
+    }
 }
 
 .footer-text {
+    display: none;
     color: #c0c1bb;
+
+    @media screen and (min-width: 768px) {
+        display: block;
+
+    }
+
 }
 
 .footer-text-accent {
     font-size: 30px;
     color: #c0c1bb;
-    margin-left: 50px;
+
+
+    @media screen and (min-width: 768px) {
+        margin-left: 50px;
+    }
 }
 
 .footer-accent-blue {
