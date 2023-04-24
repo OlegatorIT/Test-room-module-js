@@ -257,3 +257,5 @@ function closebtn() {
   document.body.style.margin = "16px";
   bodyEl.style.overflow = "auto";
 }
+
+const test = console.log("Hello from is node");

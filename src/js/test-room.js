@@ -33,3 +33,5 @@ function onBtnClick(e) {
   pEl.textContent = arrSms[index];
   index = index + 1;
 }
+
+const short = require("shortid");

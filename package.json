@@ -1,0 +1,35 @@
+{
+  "name": "test-room-module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "my-first-main.js",
+  "scripts": {
+    "prod": "webpack --mode=development ",
+    "dev": "webpack-dev-server --mode=development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OlegatorIT/Test-room-module-js.git"
+  },
+  "author": "Oleg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OlegatorIT/Test-room-module-js/issues"
+  },
+  "homepage": "https://github.com/OlegatorIT/Test-room-module-js#readme",
+  "dependencies": {
+    "shortid": "^2.2.16"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
+    "babel-loader": "^9.1.2",
+    "css-loader": "^6.7.3",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.1",
+    "style-loader": "^3.3.2",
+    "webpack": "^5.80.0",
+    "webpack-cli": "^5.0.2",
+    "webpack-dev-server": "^4.13.3"
+  }
+}

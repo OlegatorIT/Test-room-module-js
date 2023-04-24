@@ -143,7 +143,7 @@ img {
 /* MODULS  ========================================= */
 
 .moduls {
-    background-image: url(./images/backgraund1-js.jpg);
+    background-image: url(/src/images/backgraund1-js.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
